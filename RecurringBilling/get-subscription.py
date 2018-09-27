@@ -24,7 +24,7 @@ def get_subscription(subscriptionId):
 
 	if (response.messages.resultCode=="Ok"):
 		print ("Subscription Name : %s" % response.subscription.name)
-		for (transaction in response.subscription.transactions)
+		for (transaction in response.subscription.arbtransaction)
 			print "Transaction id: %d" % transaction.transId)
 	else:
 		print ("response code: %s" % response.messages.resultCode)
