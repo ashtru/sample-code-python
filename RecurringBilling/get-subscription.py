@@ -14,7 +14,7 @@ def get_subscription(subscriptionId):
 
 	getSubscription = apicontractsv1.ARBGetSubscriptionRequest()
 	getSubscription.merchantAuthentication = merchantAuth
-	getSubscription.subscriptionId = subscriptionId
+	getSubscription.subscriptionId = '2942461'
 	getSubscription.includeTransactions = true
 
 	getSubscriptionController = ARBGetSubscriptionController(getSubscription)
